@@ -86,4 +86,17 @@ public:
 int main() {
 	Queues q;
 	char ch;
+
+	while (true) {
+		try {
+			cout << "Menu" << endl;
+			cout << "1. Implement Insert Operation" << endl;
+			cout << "2. Implement Data Operation" << endl;
+			cout << "3. Display Values" << endl;
+			cout << "4. Exit" << endl;
+			cout << "Enter Your Choice (1-4) : ";
+			cin >> ch;
+			cout << endl;
+		}
+	}
 }
